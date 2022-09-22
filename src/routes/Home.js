@@ -13,8 +13,6 @@ function Home() {
     setLoading(false);
   };
 
-  console.log(movies);
-
   useEffect(() => {
     getMovies();
   }, []); // 한 번만 실행
